@@ -34,10 +34,10 @@ img{
     font-size: 30px;
 }
 .subjectCover{
-    color: rgb(255, 229, 199);
+    color: rgb(227, 246, 255);
     font-family: Bebas Neue;
     font-size: 13dvi;
-    margin-left: 8dvi;
+    margin-left: 10dvi;
     text-shadow: 0 0 60px #030303, 0 0 70px #dadada, 0 0 5px #000000;
     position: relative;
     display: inline;
@@ -64,6 +64,7 @@ img{
 }
 img{
     width: 100%;
+    top: -125px;
 }
 .eraDate{
     transform: rotate(-90deg);
@@ -83,5 +84,5 @@ margin-bottom: -6dvi;
     height: 100dvi;
     position: absolute;
     margin-top: 45dvi;
-      background: linear-gradient(to top, rgb(184, 149, 110) 20%, #ffffff 98%, transparent 100%);
+      background: linear-gradient(to top, rgb(227, 246, 255) 10%, #000000 98%, transparent 100%);
 }
