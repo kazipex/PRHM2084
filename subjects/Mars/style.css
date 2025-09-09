@@ -54,6 +54,8 @@ img{
     font-size: 1.5dvi;
     margin: 2dvi;
     margin-top: 7dvi;
+    z-index: 1;
+    position: relative;
 }
 .line{
     height: 1px;
@@ -78,10 +80,10 @@ margin-top: 5dvi;
 margin-bottom: -6dvi;
 }
 .contentWall{
-    background-color: white;
+    background-color: rgb(170, 170, 170);
     width: 100%;
     height: 100dvi;
     position: absolute;
     margin-top: 45dvi;
-      background: linear-gradient(to top, rgb(184, 149, 110) 20%, #ffffff 98%, transparent 100%);
+      background: linear-gradient(to top, #000000 98%, transparent 100%);
 }

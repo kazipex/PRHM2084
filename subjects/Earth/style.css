@@ -54,6 +54,8 @@ img{
     font-size: 1.5dvi;
     margin: 2dvi;
     margin-top: 7dvi;
+    position: relative;
+    z-index: 1;
 }
 .line{
     height: 1px;
@@ -84,5 +86,6 @@ margin-bottom: -6dvi;
     height: 100dvi;
     position: absolute;
     margin-top: 45dvi;
-      background: linear-gradient(to top, rgb(227, 246, 255) 10%, #000000 98%, transparent 100%);
+      background: linear-gradient(to top, #000000 98%, transparent 100%);
+      z-index: 1;
 }
