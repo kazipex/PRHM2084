@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: rgb(0, 0, 0);
+    height: 200%;
+    width: 100vw;
+}
+button{
+    background-color: rgb(243, 243, 243);
+    border: rgb(218, 218, 218) solid 1px;
+    padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+img{
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+}
+.mainTile{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+.mainPamphlet {
+    background-color: rgba(134, 134, 134, 0.336);
+    width: 40%;
+    height: 200%;
+    position: absolute;
+    margin-left: -50%;
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+.subjectCover{
+    color: rgb(255, 229, 199);
+    font-family: Bebas Neue;
+    font-size: 13dvi;
+    margin-left: 10dvi;
+    text-shadow: 0 0 60px #030303, 0 0 70px #dadada, 0 0 5px #000000;
+    position: relative;
+    display: inline;
+}
+.subjectDescriptor{
+    font-size: 3dvi;
+    position: absolute;
+    margin-left: 11.66dvi;
+    margin-top: -2dvi;
+}
+.mainTile p{
+    margin: 100px;
+    text-shadow: 0 0 60px #030303, 0 0 70px #dadada, 0 0 5px #000000;
+    font-size: 1.5dvi;
+    margin: 2dvi;
+    margin-top: 7dvi;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    margin-top: 5dvi;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+img{
+    width: 100%;
+}
+.eraDate{
+    transform: rotate(-90deg);
+    font-size: 3dvi;
+    color: white;
+    margin-top: -22dvi;
+    margin-left: -20dvi;
+}
+.subjectName{
+margin-left: 11dvi;
+margin-top: 5dvi;
+margin-bottom: -6dvi;
+}
